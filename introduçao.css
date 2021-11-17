@@ -6,7 +6,7 @@
 body {
     width: 100%;
     height: 100%;
-    display:block;
+    display: block;
     font-family: 'VT323', monospace;
     background-image: url("./fundo1.jpg");
 }
@@ -55,7 +55,16 @@ header {
 .box strong {
     color:yellow;
 }
-
+video{
+  display: flex;
+  margin-left: 750px;
+  margin-top: 50px;
+}
+audio{
+  display: flex;
+  margin-left: 900px;
+  margin-top: 40px;
+}
 .buttom {
     display: flex;
     width: 155px;
