@@ -55,9 +55,7 @@ header {
 .box strong {
     color:yellow;
 }
-a {
-    text-decoration: none;
-}
+
 .buttom {
     display: flex;
     width: 155px;
