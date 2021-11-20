@@ -12,7 +12,7 @@ else if (decisao == 2) {
     }
 
 }
-setTimeout (decisao, 10000)
+
 Opcao(decisao);
 
 
