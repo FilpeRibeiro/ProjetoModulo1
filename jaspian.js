@@ -14,5 +14,5 @@ else if (decisao == 2) {
 }
 
 Opcao(decisao);
-setTimeout (Opcao [10000])
+setTimeout (Opcao ,10000)
 
