@@ -51,12 +51,12 @@ section{
 .box h1{
     margin-left: 60px;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     width: 70%;
 }
 .box strong{
     color: yellow;
-    font-size: 40px;
+    font-size: 23px;
 }
 footer {
     width: 100%;

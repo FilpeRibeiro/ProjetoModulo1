@@ -50,19 +50,22 @@ section{
     justify-content: space-evenly;
 }
 .persona1,.persona2 {
-    width: 300px;
-    height: 549px;
+    width: 250px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     margin: 6px;
+    align-items: center;
+    
     
 }
 .persona3 {
-    width: 300px;
+    width: 250px;
     height: 560px;
     display: flex;
     flex-direction: column;
-    margin: 6px;   
+    margin: 6px; 
+    align-items: center;  
 }
 .box a{
     text-decoration: none;
