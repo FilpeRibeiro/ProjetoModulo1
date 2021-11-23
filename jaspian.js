@@ -13,7 +13,7 @@ function Opcao(){
 else if (decisao == 2) {
     return location= "file:///C:/Users/Filipe/OneDrive/%C3%81rea%20de%20Trabalho/Dev/ProjetoModulo1/jaspian2.html"
     }else {
-        return alert("Opçao Invalida")
+        return alert("Opçao Invalida, Recarrega a pagina!!")
     }
 
 }
