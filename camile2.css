@@ -41,7 +41,7 @@ section{
 .box {
     display: flex;
     width: 80%;
-    height: 800px;
+    height: 700px;
     background-color: tomato;
     box-sizing: border-box;
     border-radius: 10px;

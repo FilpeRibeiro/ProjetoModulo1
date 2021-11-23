@@ -14,7 +14,37 @@ body{
     background-size: cover;
     font-family: 'VT323', monospace;
 }
+main{
+    display: flex;
+    width: 100%;
+    height: 900px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 h1{
     color:red;
     font-size: 400px; 
+}
+
+form{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.buttom {
+    display: flex;
+    width: 155px;
+    height: 60px;
+    background-color:red;
+    margin-top: 70px;
+    border-radius: 10px;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'VT323', monospace;
+    padding-left: 20px;
+    
 }
