@@ -31,26 +31,32 @@ main {
     justify-content: center;
     align-items: center;
 }
+.box{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+}
   
 ul {
     display: flex;
-    width: 940px;
-    height: 600px;
+    width: 80%;
+    height: 700px;
     background-color: tomato;
     box-sizing: border-box;
     border-radius: 10px;
-    padding: 60px;
     padding: 50px;
     font-size: 30px;
     align-items: center;
     justify-content: space-evenly;
+     
 }
-.persona1,.persona2,.persona3 {
-    width: 300px;
-    height: 300px;
+.persona {
+    width: 10em;
+    height: 10em;
     display: flex;
     margin: 6px;  
-    padding: 50px;
     box-sizing: border-box;
 }
 
@@ -72,61 +78,8 @@ p {
     text-align: center;
     
 }
-@media (max-width:700px){
-     body {
-        width: 100%;
-        height: 100%;
-        display: flex;
-     }
-     header {
-        width: 100%;
-        height: 100px;
-        font-size: medium;
-        box-sizing: border-box;
-     }
-     main {
-        width: 80%;
-        height: 60%;
-        display: flex;
-        align-items: center;
-        justify-content: center;  
-        box-sizing: border-box;
-    }
-
-    .box {
-        display: flex;
-        width: 60%;
-        height: 60%;
-        background-color: tomato;
-        box-sizing: border-box;
-        border-radius: 10px;
-        padding: 50px;
-        font-size: 30px;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-direction: column;
-    }    
-    .persona1,.persona2,.persona3 {
-        width: 3vh;
-        height: 3vh;
-        display: flex;
-        margin: 6px;
-        box-sizing: border-box;  
-    }
 
 
-
-
-
-
-
-
-
-
-
-
-
-    }
 
 
     

@@ -9,10 +9,10 @@ function Opcao(){
 
     
     if (decisao == 1) {
-    return location= "file:///C:/Users/Filipe/OneDrive/%C3%81rea%20de%20Trabalho/Dev/ProjetoModulo1/gameover.html"
+        window.location.href = "./gameover.html"
 }
 else if (decisao == 2) {
-    return location= "file:///C:/Users/Filipe/OneDrive/%C3%81rea%20de%20Trabalho/Dev/ProjetoModulo1/jaspian2.html"
+    window.location.href ="./jaspian2.html"
     }else {
         
         return alert("Opçao Invalida, Recarrega a pagina!!");

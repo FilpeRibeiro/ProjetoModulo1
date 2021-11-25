@@ -29,18 +29,12 @@ header {
 }
 main {
     width: 100%;
-    height: 800px;
+    height: 900px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-section{
-    display: flex;
-    width: 100%;
-    height: 900px;
-    justify-content: center;
-    align-items: center;
-}
+
 .box {
     display: flex;
     width: 80%;

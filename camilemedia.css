@@ -1,0 +1,62 @@
+@media (max-width:800px){
+    html{
+        width: 100%;
+        height: 100%;
+    }
+    body {
+       width: 100%;
+       height: 100%;
+       display: flex;
+    }
+    header {
+       width: 100%;
+       height: 100px;
+       font-size: medium;
+       box-sizing: border-box;
+    }
+    main {
+       width: 100%;
+       height: 100%;
+    } 
+
+   .box h1 {
+      
+       width: 90%;
+       height: fit-content; 
+       font-size: 8px;
+       
+   } 
+   .box strong{
+       font-size: 8px;
+   }
+}
+@media (max-width:1400px){
+    html{
+        width: 100%;
+        height: fit-content;
+    }
+    body {
+       width: 100%;
+       height: fit-content;
+       display: flex;
+    }
+    header {
+       width: 100%;
+       height: fit-content;
+    }
+    main {
+       width: 100%;
+       height: fit-content;
+    } 
+
+   .box h1 {
+      
+       width: 90%;
+       height: fit-content; 
+       font-size: 18px;
+       
+   } 
+   .box strong{
+       font-size: 13px;
+   }
+}

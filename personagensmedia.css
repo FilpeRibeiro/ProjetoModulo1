@@ -1,0 +1,46 @@
+@media (max-width: 1400px){
+    html{
+        width: 100%;
+        height: fit-content;
+    }
+    body{
+        width: 100%;
+        height: fit-content;
+    }
+    header{
+        width: 100%;
+        height: fit-content;
+    }
+    main{
+        width: 100%;
+        height: fit-content;
+    }
+    .box{
+        width: 100%;
+        height: fit-content;
+    }
+
+}
+@media (max-width: 500px){
+    html{
+        width: 100%;
+        height: fit-content;
+    }
+    body{
+        width: 100%;
+        height: fit-content;
+    }
+    header{
+        width: 100%;
+        height: fit-content;
+        font-size: 20px;
+    }
+    main{
+        width: 100%;
+        height: fit-content;
+    }
+    h3{
+        font-size: 20px;
+    }
+
+}
