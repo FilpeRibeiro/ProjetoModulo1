@@ -19,56 +19,44 @@ header {
     text-align: center;
     margin: 0 0 50px ;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 45px;
 }
 .titulo {
     color: yellow;
 }
 main {
-    width: 100%;
-    height: 800px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-section{
     display: flex;
     width: 100%;
-    height: 700px;
+    height: 100%;
     justify-content: center;
     align-items: center;
 }
-.box {
+  
+ul {
     display: flex;
-    width: 80%;
-    height: 700px;
+    width: 940px;
+    height: 600px;
     background-color: tomato;
     box-sizing: border-box;
     border-radius: 10px;
+    padding: 60px;
     padding: 50px;
     font-size: 30px;
+    align-items: center;
     justify-content: space-evenly;
 }
-.persona1,.persona2 {
-    width: 250px;
-    height: 600px;
+.persona1,.persona2,.persona3 {
+    width: 300px;
+    height: 300px;
     display: flex;
-    flex-direction: column;
-    margin: 6px;
-    align-items: center;
-    
-    
+    margin: 6px;  
+    padding: 50px;
+    box-sizing: border-box;
 }
-.persona3 {
-    width: 250px;
-    height: 560px;
-    display: flex;
-    flex-direction: column;
-    margin: 6px; 
-    align-items: center;  
-}
+
 .box a{
     text-decoration: none;
+    color: yellow;
 }
 footer {
     width: 100%;
@@ -84,3 +72,63 @@ p {
     text-align: center;
     
 }
+@media (max-width:700px){
+     body {
+        width: 100%;
+        height: 100%;
+        display: flex;
+     }
+     header {
+        width: 100%;
+        height: 100px;
+        font-size: medium;
+        box-sizing: border-box;
+     }
+     main {
+        width: 80%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+        box-sizing: border-box;
+    }
+
+    .box {
+        display: flex;
+        width: 60%;
+        height: 60%;
+        background-color: tomato;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 50px;
+        font-size: 30px;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }    
+    .persona1,.persona2,.persona3 {
+        width: 3vh;
+        height: 3vh;
+        display: flex;
+        margin: 6px;
+        box-sizing: border-box;  
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+    
+
+    

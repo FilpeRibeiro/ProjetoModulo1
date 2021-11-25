@@ -21,5 +21,5 @@ else if (decisao == 2) {
  
 }
 
-setTimeout (Opcao ,3000)
+
 
