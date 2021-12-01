@@ -60,3 +60,76 @@
        font-size: 13px;
    }
 }
+@media (max-width:500px){
+    html{
+        width: 100%;
+        height: fit-content;
+    }
+    body {
+       width: 100%;
+       height: fit-content;
+       
+    }
+    header {
+       width: 100%;
+       height: fit-content;
+       font-size: medium;
+       box-sizing: border-box;
+    }
+    main {
+       width: 100%;
+       height: fit-content;
+    } 
+
+   .box h1 {
+      
+       width: 90%;
+       height: fit-content; 
+       font-size: 11px;
+       box-sizing: border-box;
+       
+   } 
+   .box strong{
+       font-size: 9px;
+   }
+   footer p{
+       font-size: 15px;
+   }
+}
+
+@media (max-width:400px){
+    html{
+        width: 100%;
+        height: fit-content;
+    }
+    body {
+       width: 100%;
+       height: fit-content;
+       
+    }
+    header {
+       width: 100%;
+       height: fit-content;
+       font-size: medium;
+       box-sizing: border-box;
+    }
+    main {
+       width: 100%;
+       height: fit-content;
+    } 
+
+   .box h1 {
+      
+       width: 90%;
+       height: fit-content; 
+       font-size: 9px;
+       box-sizing: border-box;
+       
+   } 
+   .box strong{
+       font-size: 7px;
+   }
+   footer p{
+       font-size: 15px;
+   }
+}

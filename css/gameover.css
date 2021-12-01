@@ -9,7 +9,7 @@ body{
     height: 900px;
     justify-content: center;
     align-items: center;
-    background-image: url("./fundo3.png");
+    background-image: url("../img/fundo3.png");
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'VT323', monospace;

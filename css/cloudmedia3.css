@@ -1,0 +1,252 @@
+@media (max-width:800px){
+    html{
+        width: 100%;
+        height: 100%;
+    }
+    body {
+       width: 100%;
+       height: 100%;
+       
+    }
+    header {
+       width: 100%;
+       height: 100px;
+       font-size: 30px;
+       box-sizing: border-box;
+    }
+    main {
+       width: 100%;
+       height: fit-content;
+       box-sizing: border-box;
+    } 
+    div h1{
+        font-size: 20px;
+        font-weight: bold;
+        box-sizing: border-box;
+    }
+   
+   .box strong{
+       font-size: 11px;
+   }
+}
+@media (max-width:1100px){
+    html{
+        width: 100%;
+        height: fit-content;
+        
+    }
+    body {
+       width: 100%;
+       height: fit-content;
+       
+    }
+    header {
+       width: 100%;
+       height: 100px;
+       font-size: 2px;
+       box-sizing: border-box;
+    }
+    main {
+       width: 100%;
+       height: min-content;
+
+    } 
+    h1{
+        font-size: 20px;
+        font-weight: bold;
+        box-sizing: border-box;
+    }
+     
+   
+   .box strong{
+       font-size: 11px;
+   }
+}
+@media (max-width:430px){
+    html{
+        width: 100%;
+        height: fit-content;
+    }
+    body {
+       width: 100%;
+       height: min-content;
+       
+    }
+    header {
+       width: 100%;
+       height: 100px;
+       font-size: 20px;
+       box-sizing: border-box;
+    }
+    main {
+       width: 100%;
+       height: min-content;
+    } 
+     main .texto{
+        font-size: 12px;
+        
+    }
+   
+   .box strong{
+       font-size: 8px;
+   }
+   footer p{
+       font-size: 13px;
+   }
+}
+
+@media (max-width:320px){
+    html{
+        width: 100%;
+        height: fit-content;
+    }
+    body {
+       width: 100%;
+       height: min-content;
+       
+    }
+    header {
+       width: 100%;
+       height: 100px;
+       font-size: 12px;
+       box-sizing: border-box;
+    }
+    main {
+       width: 100%;
+       height: min-content;
+       box-sizing: border-box;
+    } 
+     main .texto{
+        font-size: 7px;
+        box-sizing:border-box;
+        
+    }
+   
+   .box strong{
+       font-size: 4px;
+   }
+}@media (max-width:800px){
+    html{
+        width: 100%;
+        height: 100%;
+    }
+    body {
+       width: 100%;
+       height: 100%;
+       
+    }
+    header {
+       width: 100%;
+       height: 100px;
+       font-size: 30px;
+       box-sizing: border-box;
+    }
+    main {
+       width: 100%;
+       height: fit-content;
+       box-sizing: border-box;
+    } 
+     main .texto{
+        font-size: 14px;
+        font-weight: bold;
+        box-sizing: border-box;
+    }
+   
+   .box strong{
+       font-size: 15px;
+   }
+}
+@media (max-width:1100px){
+    html{
+        width: 100%;
+        height: fit-content;
+        
+    }
+    body {
+       width: 100%;
+       height: fit-content;
+       
+    }
+    header {
+       width: 100%;
+       height: 100px;
+       font-size: 30px;
+       box-sizing: border-box;
+    }
+    main {
+       width: 100%;
+       height: min-content;
+    } 
+     main .texto{
+        font-size: 14px;
+        font-weight: bold;
+    }
+   
+   .box strong{
+       font-size: 15px;
+   }
+}
+@media (max-width:430px){
+    html{
+        width: 100%;
+        height: fit-content;
+    }
+    body {
+       width: 100%;
+       height: min-content;
+       
+    }
+    header {
+       width: 100%;
+       height: 100px;
+       font-size: 20px;
+       box-sizing: border-box;
+    }
+    main {
+       width: 100%;
+       height: min-content;
+    } 
+     main .texto{
+        font-size: 9px;
+        
+    }
+   
+   .box strong{
+       font-size: 8px;
+   }
+   footer p{
+       font-size: 13px;
+   }
+}
+
+@media (max-width:320px){
+    html{
+        width: 100%;
+        height: fit-content;
+    }
+    body {
+       width: 100%;
+       height: min-content;
+       
+    }
+    header {
+       width: 100%;
+       height: 100px;
+       font-size: 12px;
+       box-sizing: border-box;
+    }
+    main {
+       width: 100%;
+       height: min-content;
+       box-sizing: border-box;
+    } 
+     main .texto{
+        font-size: 7px;
+        box-sizing:border-box;
+        
+    }
+   
+   .box strong{
+       font-size: 4px;
+   }
+}

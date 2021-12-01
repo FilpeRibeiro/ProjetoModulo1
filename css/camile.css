@@ -8,7 +8,7 @@ body {
     height: 100%;
     display: flex;
     font-family: 'VT323', monospace;
-    background-image: url("./fundo3.png");
+    background-image: url("../img/fundo3.png");
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;

@@ -8,7 +8,7 @@ body {
     height: 100%;
     display: block;
     font-family: 'VT323', monospace;
-    background-image: url("./fundo3.png");
+    background-image: url("../img/fundo3.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -24,43 +24,39 @@ header {
 .titulo {
     color: yellow;
 }
-main {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-}
-.box{
+main{
     display: flex;
     width: 100%;
     height: fit-content;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    
 }
-  
-ul {
+.box{
     display: flex;
     width: 80%;
-    height: 700px;
+    height: 800px;
     background-color: tomato;
-    box-sizing: border-box;
-    border-radius: 10px;
-    padding: 50px;
-    font-size: 30px;
+    padding: 20px;
+    border-radius: 15px;
     align-items: center;
-    justify-content: space-evenly;
-     
-}
-.persona {
-    width: 10em;
-    height: 10em;
-    display: flex;
-    margin: 6px;  
     box-sizing: border-box;
 }
-
-.box a{
+ul{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-around;
+    
+}
+li {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+}
+a{
     text-decoration: none;
     color: yellow;
 }
